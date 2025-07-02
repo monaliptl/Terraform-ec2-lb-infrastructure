@@ -1,7 +1,12 @@
 # Terraform AWS Infrastructure Automation
 
 ## Project Overview
-This Terraform project automates the provisioning of a basic but scalable AWS web infrastructure with high availability. It creates a VPC, public subnets in multiple availability zones, security groups, two EC2 instances with Apache web servers, an internet gateway, route tables, an S3 bucket, and a load balancer to distribute traffic.
+Designed and deployed a scalable, highly available web infrastructure on AWS using Terraform. Automated the creation of:
+A custom VPC with multiple public subnets across different availability zones.
+Configured security groups, internet gateway, and route tables.
+Provisioned two EC2 instances running Apache web servers with user data.
+Created an S3 bucket for object storage.
+Implemented an Application Load Balancer (ALB) to distribute traffic across instances.
 
 ---
 
